@@ -570,7 +570,7 @@ class Designer extends Component {
           </div>
 
           {/* Right Panel: Displays text, styling and sizing tools */}
-          {showPropertyPanel && (
+          {showPropertyPanel && objectComponent && (
             <PanelList
               id={this.props.id}
               object={objectWithInitial}
